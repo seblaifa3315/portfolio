@@ -16,4 +16,38 @@ export const LeftSection = styled.div`
 
     margin: 0 auto;
   }
-`;
+`
+
+export const Img = styled.img`
+  width:200px;
+  height:200px;
+  overflow: hidden;
+  border-radius: 100%;
+  opacity: 0.5;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 50px;
+  
+
+
+
+  
+  
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    width: 100px;
+    height:100px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    width: 100px;
+    height:100px;
+    margin-left: 5px;
+    margin-top: 10px;
+  }
+
+`
+;
+

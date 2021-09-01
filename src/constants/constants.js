@@ -1,3 +1,4 @@
+
 export const projects = [
   {
     title: 'MERN Memories',
@@ -38,9 +39,7 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2019, text: 'Started my journey with C++', },
+  { year: 2020, text: 'Started the fondamentals of Web Development HTML, CSS, Javascript', },
+  { year: 2021, text: 'Successfully completed Full Stack Web and Mobile Development Bootcamp with Nucamp', },
 ];
